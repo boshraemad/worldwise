@@ -9,6 +9,9 @@ import Login from "./Pages/Login"
 import AppLayout from "./Pages/AppLayout"
 import Cities from "./Components/Cities"
 import Countries from "./Components/Countries"
+import City from "./Components/City"
+import Form from "./Components/Form"
+import { Navigate } from "react-router-dom"
 
 const Base_Url="http://localhost:8000";
 
@@ -37,9 +40,11 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage/>}/>
         <Route path="/app" element={<AppLayout/>}>
-          <Route index  element={<Cities cities={cities} isLoading={isLoading}/>}/>
+          <Route index element={<Navigate  replace to="cities" />}/>
           <Route path="cities" element={<Cities cities={cities} isLoading={isLoading}/>}/>
           <Route path="countries" element={<Countries cities={cities} isLoading={isLoading}/>}/>
+          <Route path="form" element={<Form/>}/>
+          <Route path="cities/:id" element={<City/>}/>
         </Route>
         <Route path="/product" element={<Product/>}/>
         <Route path="/pricing" element={<Pricing/>}/>
