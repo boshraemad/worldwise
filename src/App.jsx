@@ -3,7 +3,8 @@ import { Routes , Route } from "react-router-dom"
 import HomePage from "./Pages/HomePage"
 import Product from "./Pages/Product"
 import Pricing from "./Pages/Pricing"
-import ErrorPage from "./Pages/ErrorPage"
+import PageNotFound from "./Pages/PageNotFound"
+import Login from "./Pages/Login"
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
         <Route path="/" element={<HomePage/>}/>
         <Route path="/product" element={<Product/>}/>
         <Route path="/pricing" element={<Pricing/>}/>
-        <Route path="*" element={<ErrorPage/>}/>
+        <Route path="/login" element={<Login/>}/>
+        <Route path="*" element={<PageNotFound/>}/>
       </Routes>
     </BrowserRouter>
   )
