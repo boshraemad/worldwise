@@ -1,6 +1,5 @@
 import { BrowserRouter } from "react-router-dom"
 import { Routes , Route } from "react-router-dom"
-import { useEffect , useState } from "react"
 import HomePage from "./Pages/HomePage"
 import Product from "./Pages/Product"
 import Pricing from "./Pages/Pricing"
