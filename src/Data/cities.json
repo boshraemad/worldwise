@@ -1,18 +1,6 @@
 {
   "cities": [
     {
-      "cityName": "Lisbon",
-      "country": "Portugal",
-      "emoji": "🇵🇹",
-      "date": "2027-10-31T15:59:59.138Z",
-      "notes": "My favorite city so far!",
-      "position": {
-        "lat": 38.727881642324164,
-        "lng": -9.140900099907554
-      },
-      "id": "73930385"
-    },
-    {
       "cityName": "Madrid",
       "country": "Spain",
       "emoji": "🇪🇸",
@@ -49,18 +37,6 @@
       }
     },
     {
-      "id": "3e6d",
-      "cityName": "Breman Asikuma",
-      "country": "Ghana",
-      "emoji": "🇬🇭",
-      "date": "2025-07-24T21:22:22.609Z",
-      "notes": "hh",
-      "position": {
-        "lat": "5.550853673902363",
-        "lng": "-1.0564670842503012"
-      }
-    },
-    {
       "id": "4fc4",
       "cityName": "Atebubu",
       "country": "Ghana",
@@ -70,66 +46,6 @@
       "position": {
         "lat": "7.9076716450890885",
         "lng": "-1.0781732327140217"
-      }
-    },
-    {
-      "id": "4356",
-      "cityName": "Vasileia",
-      "country": "Cyprus",
-      "emoji": "🇨🇾",
-      "date": "2025-07-24T21:24:47.774Z",
-      "notes": "nnnn",
-      "position": {
-        "lat": "35.33578622143097",
-        "lng": "33.13185123340167"
-      }
-    },
-    {
-      "id": "49ba",
-      "cityName": "Al Kharjah",
-      "country": "",
-      "emoji": "",
-      "date": "2025-07-24T21:28:11.022Z",
-      "notes": "hhhhhhhhh",
-      "position": {
-        "lat": "-7.989969790589502",
-        "lng": "-0.7930101348843911"
-      }
-    },
-    {
-      "id": "dc69",
-      "cityName": "Al Kharjah",
-      "country": "",
-      "emoji": "",
-      "date": "2025-07-24T21:28:11.022Z",
-      "notes": "hhhhhhhhh",
-      "position": {
-        "lat": "-7.989969790589502",
-        "lng": "-0.7930101348843911"
-      }
-    },
-    {
-      "id": "f91b",
-      "cityName": "Sotouboua",
-      "country": "Togo",
-      "emoji": "🇹🇬",
-      "date": "2025-07-24T21:28:47.595Z",
-      "notes": "hhh",
-      "position": {
-        "lat": "8.671650369106786",
-        "lng": "1.1326055755780253"
-      }
-    },
-    {
-      "id": "1da6",
-      "cityName": "Lomie",
-      "country": "Cameroon",
-      "emoji": "🇨🇲",
-      "date": "2025-07-24T21:29:12.987Z",
-      "notes": "niceeeeeeee",
-      "position": {
-        "lat": "3.08185547379211",
-        "lng": "13.872378911693215"
       }
     }
   ]
