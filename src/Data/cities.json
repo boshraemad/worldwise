@@ -1,18 +1,6 @@
 {
   "cities": [
     {
-      "cityName": "Madrid",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2027-07-15T08:22:53.976Z",
-      "notes": "",
-      "position": {
-        "lat": 40.46635901755316,
-        "lng": -3.7133789062500004
-      },
-      "id": "17806751"
-    },
-    {
       "cityName": "Berlin",
       "country": "Germany",
       "emoji": "🇩🇪",
@@ -46,6 +34,90 @@
       "position": {
         "lat": "7.9076716450890885",
         "lng": "-1.0781732327140217"
+      }
+    },
+    {
+      "id": "223f",
+      "cityName": "Ramat Negev Regional Council",
+      "country": "Israel",
+      "emoji": "🇮🇱",
+      "date": "2025-07-24T23:04:08.636Z",
+      "notes": "",
+      "position": {
+        "lat": "30.791002592416387",
+        "lng": "34.83309311913622"
+      }
+    },
+    {
+      "id": "2364",
+      "cityName": "Al Kharjah",
+      "country": "Egypt",
+      "emoji": "🇪🇬",
+      "date": "2025-07-24T23:04:08.636Z",
+      "notes": "",
+      "position": {
+        "lat": "-5.808784627089314",
+        "lng": "0.7958792562144091"
+      }
+    },
+    {
+      "id": "f882",
+      "cityName": "Sao Tome and Principe",
+      "country": "Sao Tome and Principe",
+      "emoji": "🇸🇹",
+      "date": "2025-07-24T23:05:36.864Z",
+      "notes": "happpppy",
+      "position": {
+        "lat": "0.6384568474306788",
+        "lng": "6.8635877717072225"
+      }
+    },
+    {
+      "id": "2384",
+      "cityName": "Sao Tome and Principe",
+      "country": "Sao Tome and Principe",
+      "emoji": "🇸🇹",
+      "date": "2025-07-24T23:05:36.864Z",
+      "notes": "happpppy",
+      "position": {
+        "lat": "-2.371235669781436",
+        "lng": "0.5535704623521821"
+      }
+    },
+    {
+      "id": "2ffb",
+      "cityName": "Makokou",
+      "country": "Gabon",
+      "emoji": "🇬🇦",
+      "date": "2025-07-24T23:06:06.323Z",
+      "notes": "hhh",
+      "position": {
+        "lat": "-0.1083489393807567",
+        "lng": "12.268523997443031"
+      }
+    },
+    {
+      "id": "c56f",
+      "cityName": "Gyakobu",
+      "country": "Ghana",
+      "emoji": "🇬🇭",
+      "date": "2025-07-24T23:06:26.570Z",
+      "notes": "hhh",
+      "position": {
+        "lat": "6.315534762863013",
+        "lng": "-1.8423958557742173"
+      }
+    },
+    {
+      "id": "49ad",
+      "cityName": "Ksiaz Wielkopolski",
+      "country": "Poland",
+      "emoji": "🇵🇱",
+      "date": "2025-07-24T23:06:43.119Z",
+      "notes": "hhhhhhhh",
+      "position": {
+        "lat": "51.99992798201597",
+        "lng": "17.277200169051014"
       }
     }
   ]

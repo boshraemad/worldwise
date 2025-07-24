@@ -70,7 +70,7 @@ function Form() {
 
     if(cityName) {
       await addCity(newCity);
-      navigate(-1);
+      navigate("/app");
     }
   }
   // if(error) return <Message message={error}/>
