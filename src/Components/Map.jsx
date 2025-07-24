@@ -5,16 +5,15 @@ import styles from '../Components/Map.module.css'
 import { MapContainer , TileLayer , Marker , Popup, useMap, useMapEvents } from 'react-leaflet';
 import { useCities } from '../contexts/citiesContext';
 import useGeolocation from '../Hooks/useGeolocation';
+import useUrlPosition from '../Hooks/useUrlPosition';
 import Button from './Button';
 import Loading from './Loading';
 
 export default function Map() {
-    const [mapPosition , setMapPosition]=useState([30,0]);
-    const [searchQuery]=useSearchParams();
+    const [mapPosition , setMapPosition]=useState([0,0]);
     const {cities}=useCities();
     const {isLoading , position:geolocationPosition , getPosition} = useGeolocation();
-    const mapLat=searchQuery.get("lat");
-    const mapLng=searchQuery.get("lng");
+    const [mapLat , mapLng]=useUrlPosition();
 
     useEffect(()=>{
       if(mapLat && mapLng) setMapPosition([mapLat , mapLng]);
