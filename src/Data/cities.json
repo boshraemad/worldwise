@@ -1,30 +1,6 @@
 {
   "cities": [
     {
-      "cityName": "Berlin",
-      "country": "Germany",
-      "emoji": "🇩🇪",
-      "date": "2027-02-12T09:24:11.863Z",
-      "notes": "Amazing 😃",
-      "position": {
-        "lat": 52.53586782505711,
-        "lng": 13.376933665713324
-      },
-      "id": "98443197"
-    },
-    {
-      "id": "f97b",
-      "cityName": "Markaz al Waḩat ad Dakhilah",
-      "country": "Egypt",
-      "emoji": "🇪🇬",
-      "date": "2025-07-24T21:20:49.802Z",
-      "notes": "happy",
-      "position": {
-        "lat": "26.157357923880664",
-        "lng": "29.15624475241278"
-      }
-    },
-    {
       "id": "4fc4",
       "cityName": "Atebubu",
       "country": "Ghana",

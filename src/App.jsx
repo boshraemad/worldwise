@@ -12,27 +12,31 @@ import City from "./Components/City"
 import Form from "./Components/Form"
 import { Navigate } from "react-router-dom"
 import { CitiesProvider } from "./contexts/citiesContext"
+import { Authenticationprovider } from "./contexts/fakeAuthenticationContext"
+import ProtectedRoute from "./Pages/ProtectedRoute"
 
 function App() {
   return (
-    <CitiesProvider>
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<HomePage/>}/>
-          <Route path="/app" element={<AppLayout/>}>
-            <Route index element={<Navigate  replace to="cities" />}/>
-            <Route path="cities" element={<Cities/>}/>
-            <Route path="countries" element={<Countries/>}/>
-            <Route path="form" element={<Form/>}/>
-            <Route path="cities/:id" element={<City/>}/>
-          </Route>
-          <Route path="/product" element={<Product/>}/>
-          <Route path="/pricing" element={<Pricing/>}/>
-          <Route path="/login" element={<Login/>}/>
-          <Route path="*" element={<PageNotFound/>}/>
-        </Routes>
-      </BrowserRouter>
-    </CitiesProvider>
+    <Authenticationprovider>
+      <CitiesProvider>
+        <BrowserRouter>
+          <Routes>
+            <Route path="/" element={<HomePage/>}/>
+            <Route path="/app" element={<ProtectedRoute><AppLayout/></ProtectedRoute>}>
+              <Route index element={<Navigate  replace to="cities" />}/>
+              <Route path="cities" element={<Cities/>}/>
+              <Route path="countries" element={<Countries/>}/>
+              <Route path="form" element={<Form/>}/>
+              <Route path="cities/:id" element={<City/>}/>
+            </Route>
+            <Route path="/product" element={<Product/>}/>
+            <Route path="/pricing" element={<Pricing/>}/>
+            <Route path="/login" element={<Login/>}/>
+            <Route path="*" element={<PageNotFound/>}/>
+          </Routes>
+        </BrowserRouter>
+      </CitiesProvider>
+    </Authenticationprovider>
   )
 }
 
