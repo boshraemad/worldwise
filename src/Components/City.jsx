@@ -11,9 +11,17 @@ export default function City() {
     const {getCity , currentCity , isLoading}=useCities();
 
     const {cityName , emoji ,date , notes} = currentCity;
+
+    //adding the getCity function causes infinite loop 
+    //why?
+    //using the getCity re-renders the citiesContext so it re-creates the getCity then it re-use the getCity function in the useEffect
+    //how to solve ?
+    //use getCity function in useCallBack in the cities context
+
+    //this effect runs when id changes or the getCity is re-created and this happens when the cities context is re-rendered
     useEffect(()=>{
       getCity(id);
-    },[id])
+    },[id , getCity])
 
     if (isLoading) return <Spinner/>
   return (
